@@ -38,6 +38,12 @@ namespace LogicalPrograms
                         rv.Calculation(numb);
                         break;
                     case 5:
+                        Console.Write("How many numbers you wants to generate :");
+                        int N = Convert.ToInt32(Console.ReadLine());
+                        CoupanNumber cn = new CoupanNumber();
+                        cn.Calculation(N);
+                        break;
+                    case 6:
                         flag = false;
                         break;
                 }
