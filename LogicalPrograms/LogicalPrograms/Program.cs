@@ -32,6 +32,12 @@ namespace LogicalPrograms
                         prn.Check(num);
                         break;
                     case 4:
+                        Console.WriteLine("Enter a Number to Reverse ");
+                        int numb = Convert.ToInt32(Console.ReadLine());
+                        ReverseNumber rv = new ReverseNumber();
+                        rv.Calculation(numb);
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
