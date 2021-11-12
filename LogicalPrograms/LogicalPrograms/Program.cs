@@ -44,6 +44,10 @@ namespace LogicalPrograms
                         cn.Calculation(N);
                         break;
                     case 6:
+                        Simulate sl = new Simulate();
+                        sl.Calculate();
+                        break;
+                    case 7:
                         flag = false;
                         break;
                 }
