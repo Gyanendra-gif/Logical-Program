@@ -25,8 +25,13 @@ namespace LogicalPrograms
                         PerfectNumber pn = new PerfectNumber();
                         pn.Check(number);
                         break;
-
                     case 3:
+                        Console.WriteLine("Enter the Number to Check it's a Prime Number or not");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        PrimeNumber prn = new PrimeNumber();
+                        prn.Check(num);
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }

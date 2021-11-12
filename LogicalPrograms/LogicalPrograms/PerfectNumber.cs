@@ -6,7 +6,7 @@ namespace LogicalPrograms
 {
     class PerfectNumber
     {
-        public static void Check(int number)
+        public void Check(int number)
         {
             
             List<int> storeElement = new List<int>();
