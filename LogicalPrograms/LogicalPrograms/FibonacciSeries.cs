@@ -14,7 +14,7 @@ namespace LogicalPrograms
                 return 1;
             return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
         }
-        public void series(int length)
+        public void Series(int length)
         {
             for (int i = 0; i < length; i++)
             {

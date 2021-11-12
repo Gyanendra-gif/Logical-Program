@@ -17,9 +17,16 @@ namespace LogicalPrograms
                         Console.Write("Enter the length of the Fibonacci Series: ");
                         int length = Convert.ToInt32(Console.ReadLine());
                         FibonacciSeries fc = new FibonacciSeries();
-                        fc.series(length);
+                        fc.Series(length);
                         break;
                     case 2:
+                        Console.Write("Enter the number :");
+                        int number = Convert.ToInt32(Console.ReadLine());
+                        PerfectNumber pn = new PerfectNumber();
+                        pn.Check(number);
+                        break;
+
+                    case 3:
                         flag = false;
                         break;
                 }
